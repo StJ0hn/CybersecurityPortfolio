@@ -8,11 +8,11 @@
 
 ## Description
 
-Repository with hands-on activities completed during the **Google Cybersecurity Certificate**, including reflections and connections applied to real software development projects. The goal is to demonstrate practical application of information security concepts rather than just course completion.
+Repository with hands-on projects completed during the **Google Cybersecurity Certificate**, including reflections and connections applied to real software development projects. The goal is to demonstrate practical application of information security concepts rather than just course completion.
 
 ## Overview
 
-This repository gathers practical exercises from the certificate, organized by topic. Each activity is documented with its own context, scenario, and the reasoning behind the decisions made — not just the raw deliverable.
+This repository gathers practical projects from the certificate, organized by topic. Each activity is documented with its own context, scenario, and the reasoning behind the decisions made — not just the raw deliverable.
 
 I'm a Software Engineering student at UFC (Campus Russas), currently focused on fullstack development (Java/Spring Boot and TypeScript/Node.js), expanding into security as a direct complement to my technical background.
 
@@ -38,9 +38,9 @@ I'm a Software Engineering student at UFC (Campus Russas), currently focused on 
 cybersecurity-portfolio/
 ├── README.md
 ├── LICENSE
-├── 01-security-audit/
+├── 01_SecurityAudit/
 │   ├── README.md
-│   └── audit-scope-and-goals.pdf
+│   └── AuditScopeAndGoals.pdf
 └── assets/
 ```
 
