@@ -30,7 +30,8 @@ The deliverable follows four sections: audit scope and goals, a risk assessment 
 ```
 01-security-audit/
 ├── README.md
-└── audit-scope-and-goals.pdf
+├── AuditScopeAndGoals.pdf
+└── ControlsAndCompliance.pdf
 ```
 
 ## References
