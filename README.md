@@ -41,12 +41,17 @@ cybersecurity-portfolio/
 ├── 01_SecurityAudit/
 │   ├── README.md
 │   └── AuditScopeAndGoals.pdf
+├── 02_TrafficAnalysisNetwork/
+|   ├── README.md
+|   └── CybwesecurityIncidentReport.pdf
 └── assets/
 ```
 
-| # | Activity | Description | Key concepts |
-|---|---|---|---|
-| 01 | [Security Audit](./01-security-audit) | Scope definition, risk assessment, and compliance checklist for a fictional organizational scenario | NIST CSF, GDPR, PCI DSS, Administrative/Technical/Physical Controls |
+| #  | Activity                                                        | Description                                                                                         | Key concepts                                                         |
+| -- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| 01 | [Security Audit](./01-security-audit)                           | Scope definition, risk assessment, and compliance checklist for a fictional organizational scenario | NIST CSF, GDPR, PCI DSS, Administrative/Technical/Physical Controls  |
+| 02 | [DNS and ICMP Traffic Analysis](./02-dns-icmp-traffic-analysis) | Analysis of DNS and ICMP traffic using tcpdump to investigate a network connectivity incident       | tcpdump, DNS, UDP, ICMP, Network Traffic Analysis, Incident Response |
+
 
 > New activities will be added as I progress through the certificate.
 
