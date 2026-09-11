@@ -44,19 +44,24 @@ cybersecurity-portfolio/
 ├── 02_TrafficAnalysisNetwork/
 |   ├── README.md
 |   └── CybwesecurityIncidentReport.pdf
-└── 03_TCPSYNFloodAnalysis
-    ├── assets/
-    |   ├── syn-flood-diagram.png
-    |   ├── tcp-handshake.png
-    |   └── wireshark-logs.xlsx
-    └── CybersecurityIncidentReport.pdf
+├── 03_TCPSYNFloodAnalysis
+|   ├── assets/
+|   |   ├── syn-flood-diagram.png
+|   |   ├── tcp-handshake.png
+|   |   └── wireshark-logs.xlsx
+|   └── CybersecurityIncidentReport.pdf
+└── 04_DoSICMPFloodIncidentAnalysis
+    ├── README.md
+    └── IncidentReportAnalysis.pdf
+
 ```
 
 | #  | Activity                                                        | Description                                                                                          | Key concepts                                                          |
 | -- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| 01 | [Security Audit](./01-security-audit)                             | Scope definition, risk assessment, and compliance checklist for a fictional organizational scenario   | NIST CSF, GDPR, PCI DSS, Administrative/Technical/Physical Controls       |
-| 02 | [DNS and ICMP Traffic Analysis](./02-dns-icmp-traffic-analysis)   | Analysis of DNS and ICMP traffic using tcpdump to investigate a network connectivity incident         | tcpdump, DNS, UDP, ICMP, Network Traffic Analysis, Incident Response      |
-| 03 | [TCP SYN Flood Incident Analysis](./03-tcp-syn-flood-incident-analysis) | Investigated a simulated web server outage by analyzing Wireshark TCP logs, identifying a TCP SYN Flood (DoS) attack, and documenting findings in an incident response report | Wireshark, TCP/IP, Packet Analysis, Incident Response, Network Security |
+| 01 | [Security Audit](./01_SecurityAudit)                             | Scope definition, risk assessment, and compliance checklist for a fictional organizational scenario   | NIST CSF, GDPR, PCI DSS, Administrative/Technical/Physical Controls       |
+| 02 | [DNS and ICMP Traffic Analysis](./02_TrafficAnalysisInNetwork)   | Analysis of DNS and ICMP traffic using tcpdump to investigate a network connectivity incident         | tcpdump, DNS, UDP, ICMP, Network Traffic Analysis, Incident Response      |
+| 03 | [TCP SYN Flood Incident Analysis](./03_TCPSYNFloodAnalysis) | Investigated a simulated web server outage by analyzing Wireshark TCP logs, identifying a TCP SYN Flood (DoS) attack, and documenting findings in an incident response report | Wireshark, TCP/IP, Packet Analysis, Incident Response, Network Security |
+| 04 | [DoS/ICMP Flood Incident Analysis](./04_DoSICMPFloodIncidentAnalysis) | Applied the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover) to document a DoS attack caused by an ICMP packet flood exploiting a misconfigured firewall | NIST CSF, DoS/DDoS, ICMP Flood, Firewall Misconfiguration, IDS/IPS, Incident Response |
 
 
 > New activities will be added as I progress through the certificate.
