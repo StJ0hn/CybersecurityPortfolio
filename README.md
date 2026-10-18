@@ -12,7 +12,7 @@ Repository with hands-on projects completed during the **Google Cybersecurity Ce
 
 ## Overview
 
-This repository gathers practical projects from the certificate, organized by topic. Each activity is documented with its own context, scenario, and the reasoning behind the decisions made — not just the raw deliverable.
+This repository gathers practical projects from the certificate, organized by topic. Each activity is documented with its own context, scenario, and the reasoning behind the decisions made, not just the raw deliverable.
 
 I'm a Software Engineering student at UFC (Campus Russas), currently focused on fullstack development (Java/Spring Boot and TypeScript/Node.js), expanding into security as a direct complement to my technical background.
 
@@ -44,27 +44,33 @@ cybersecurity-portfolio/
 ├── 02_TrafficAnalysisNetwork/
 │   ├── README.md
 │   └── CybwesecurityIncidentReport.pdf
-├── 03_TCPSYNFloodAnalysis
+├── 03_TCPSYNFloodAnalysis/
 │   ├── assets/
 │   │   ├── syn-flood-diagram.png
 │   │   ├── tcp-handshake.png
 │   │   └── wireshark-logs.xlsx
 │   └── CybersecurityIncidentReport.pdf
-├── 04_DoSICMPFloodIncidentAnalysis
+├── 04_DoSICMPFloodIncidentAnalysis/
 │   ├── README.md
 │   └── IncidentReportAnalysis.pdf
-└── 05_FilePermissionsLinux/
+├── 05_FilePermissionsLinux/
+│   ├── README.md
+│   └── FilePermissionsInLinux.pdf
+└── 06_ApplyFiltersToSQLQueries/
     ├── README.md
-    └── FilePermissionsInLinux.pdf
+    └── Apply_filters_to_SQL_queries.pdf
 ```
 
-| #  | Activity                                                        | Description                                                                                          | Key concepts                                                          |
-| -- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| 01 | [Security Audit](./01_SecurityAudit)                             | Scope definition, risk assessment, and compliance checklist for a fictional organizational scenario   | NIST CSF, GDPR, PCI DSS, Administrative/Technical/Physical Controls |
-| 02 | [DNS and ICMP Traffic Analysis](./02_TrafficAnalysisInNetwork)   | Analysis of DNS and ICMP traffic using tcpdump to investigate a network connectivity incident         | tcpdump, DNS, UDP, ICMP, Network Traffic Analysis, Incident Response |
+## Activities
+
+| # | Activity | Description | Key concepts |
+|---|---|---|---|
+| 01 | [Security Audit](./01_SecurityAudit) | Scope definition, risk assessment, and compliance checklist for a fictional organizational scenario | NIST CSF, GDPR, PCI DSS, Administrative/Technical/Physical Controls |
+| 02 | [DNS and ICMP Traffic Analysis](./02_TrafficAnalysisNetwork) | Analysis of DNS and ICMP traffic using tcpdump to investigate a network connectivity incident | tcpdump, DNS, UDP, ICMP, Network Traffic Analysis, Incident Response |
 | 03 | [TCP SYN Flood Incident Analysis](./03_TCPSYNFloodAnalysis) | Investigated a simulated web server outage by analyzing Wireshark TCP logs, identifying a TCP SYN Flood (DoS) attack, and documenting findings in an incident response report | Wireshark, TCP/IP, Packet Analysis, Incident Response, Network Security |
 | 04 | [DoS/ICMP Flood Incident Analysis](./04_DoSICMPFloodIncidentAnalysis) | Applied the NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover) to document a DoS attack caused by an ICMP packet flood exploiting a misconfigured firewall | NIST CSF, DoS/DDoS, ICMP Flood, Firewall Misconfiguration, IDS/IPS, Incident Response |
 | 05 | [File Permissions in Linux](./05_FilePermissionsLinux) | Inspected and modified file and directory permissions in the `projects` directory using `ls -la` and `chmod`, aligning permissions with the required authorization levels | Linux, File Permissions, chmod, ls -la, Authorization, Access Control, Security |
+| 06 | [Apply Filters to SQL Queries](./06_ApplyFiltersToSQLQueries) | Used SQL filters to investigate after-hours failed login attempts, review login activity on specific dates and outside Mexico, and identify employee computers requiring security updates by department | SQL, WHERE, AND, OR, NOT, LIKE, Wildcards, Log Analysis, Access Control |
 
 > New activities will be added as I progress through the certificate.
 
@@ -76,4 +82,4 @@ cybersecurity-portfolio/
 
 ## License
 
-This repository is licensed under the MIT License — see [LICENSE](./LICENSE) for details.
+This repository is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
